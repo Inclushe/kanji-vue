@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet" href="/public/stylesheets/index.styl")
+    link(rel="stylesheet" href="https://unpkg.com/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css")
+    title RTK
+  body
+    #app
+      .kanji
+        #kanjiNumber(v-cloak) {{ kanjiCount }}
+        p kanji left in RTK1
+        p {{ kanjiCount == '...' ? '...' : Math.min(2200 - kanjiCount, 2200) }}/2200
+    script(src="/public/scripts/index.js")
