@@ -10,19 +10,17 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "dependencies": {
     "@vue/component-compiler-utils": "^2.6.0",
     "cssnano": "^4.1.10",
     "pug": "^2.0.3",
     "sass": "^1.17.4",
     "stylus": "^0.54.5",
     "typescript": "^3.4.2",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "alias": {
-    "vue": "./node_modules/vue/dist/vue.min.js"
-  },
-  "dependencies": {
+    "vue-template-compiler": "^2.6.10",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",
     "vuex": "^3.1.0"
