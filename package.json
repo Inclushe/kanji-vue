@@ -8,8 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "watch": "parcel dev/index.pug  --port 8080",
-    "build": "parcel build dev/index.pug -d dist/",
+    "watch": "parcel ./dev/index.pug  --port 8080",
+    "build": "parcel build ./dev/index.pug -d ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
