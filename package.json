@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "parcel ./dev/index.pug  --port 8080",
-    "build": "parcel build ./dev/index.pug -d ./dist/",
+    "build": "parcel build ./dev/index.pug -d ./dist/ && cp ./dev/CNAME ./dist/CNAME",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -27,6 +27,7 @@
     "vue-template-compiler": "^2.6.10",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",
-    "vuex": "^3.1.0"
+    "vuex": "^3.1.0",
+    "parcel": "^1.12.3"
   }
 }
