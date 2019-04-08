@@ -1,7 +1,11 @@
 {
   "name": "parcel-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Kanji",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:Inclushe/kanji-vue.git"
+  },
   "main": "index.js",
   "scripts": {
     "watch": "parcel dev/index.pug  --port 8080",
