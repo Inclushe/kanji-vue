@@ -14,7 +14,7 @@ html(lang="en")
   body
     #app
       .kanji
-        #kanjiNumber(v-cloak) {{ kanjiCount }}
+        #kanjiNumber(v-cloak) {{ kanjiLeft }}
         p kanji left in RTK1
-        p(v-cloak) {{ kanjiCount == '...' ? '...' : Math.min(2200 - kanjiCount, 2200) }}/2200
+        p(v-cloak) {{ kanjiCount }}/2200
     script(src="/public/scripts/index.js")
